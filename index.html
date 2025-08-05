@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Haven - Quality T-Shirts for Everyone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">T-Shirt Haven</div>
+            <div class="cart-icon">
+                🛒 <span id="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to T-Shirt Haven</h1>
+            <p>Discover our collection of high-quality, comfortable t-shirts</p>
+        </section>
+
+        <section class="products" id="products">
+            <h2>Our T-Shirts</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300" alt="Classic White T-Shirt">
+                    <h3>Classic White T-Shirt</h3>
+                    <p>Premium cotton, perfect fit</p>
+                    <p class="price">$24.99</p>
+                    <button onclick="addToCart(1)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300" alt="Black Essential T-Shirt">
+                    <h3>Black Essential T-Shirt</h3>
+                    <p>Comfortable everyday wear</p>
+                    <p class="price">$24.99</p>
+                    <button onclick="addToCart(2)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300" alt="Navy Blue T-Shirt">
+                    <h3>Navy Blue T-Shirt</h3>
+                    <p>Stylish and versatile</p>
+                    <p class="price">$24.99</p>
+                    <button onclick="addToCart(3)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>T-Shirt Haven provides quality t-shirts for every style and occasion.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@tshirthaven.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 T-Shirt Haven. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
